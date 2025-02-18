@@ -13,9 +13,9 @@ int main() {
     double descuento = 0.15;
     
     
-    double descuento = precio * (1 - descuento);
+    double descuento_final = precio * descuento;
 
-    double precio_final = precio - descuento;
+    double precio_final = precio - descuento_final;
     
 
     cout << "El precio final es: " << precio_final << endl;
